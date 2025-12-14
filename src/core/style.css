@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #e0e0e0;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+section {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+}
+
+input {
+  padding: 6px;
+  margin: 4px 0;
+  width: 160px;
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #3a3a3a;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 4px 0;
+  cursor: pointer;
+  background: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #3a3a3a;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #3a3a3a;
+}
+
+pre {
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #2a2a2a;
+}
+
+.live-view {
+  display: flex;
+  gap: 20px;
+}
+
+.panel {
+  flex: 1;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+.panel h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 6px;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 14px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.track-liked {
+  color: crimson;
+  font-weight: bold;
+}
+
+.track-actions {
+  margin-top: 4px;
+}
+
+.track-actions button {
+  margin-left: 4px;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.btn-like {
+  color: crimson;
+}
+
+.btn-unlike {
+  color: #bbbbbb;
+}
+
+.btn-delete {
+  color: #ff6b6b;
+}
+
+.btn-add {
+  color: #4caf50;
+}
+
+.btn-remove {
+  color: #ff9800;
+}

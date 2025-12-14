@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <title>Zene / Playlist kezelő</title>
+    <link rel="shortcut icon" href="src/typescript.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/core/`style`.css" />
+</head>
+<body>
+
+
+<section>
+    <h2>Zeneszámok</h2>
+    <button id="listTracksBtn">Listázás</button>
+    <input id="searchInput" placeholder="Keresés..." />
+    <button id="searchBtn">Keresés</button>
+
+    <h3>Új szám</h3>
+    <input id="titleInput" placeholder="Cím" />
+    <input id="artistInput" placeholder="Előadó" />
+    <input id="albumInput" placeholder="Album" />
+    <input id="genreInput" placeholder="Műfaj" />
+    <input id="durationInput" placeholder="Hossz (mp)" type="number" />
+    <button id="addTrackBtn">Hozzáadás</button>
+
+
+</section>
+
+<section>
+    <h2>Lejátszási listák</h2>
+    <button id="listPlaylistsBtn">Playlist lista</button>
+
+    <h3>Új lejátszási lista</h3>
+    <input id="playlistNameInput" placeholder="Playlist neve" />
+    <button id="createPlaylistBtn">Létrehozás</button>
+
+
+</section>
+
+<section>
+    <h2>Export / Import</h2>
+    <button id="exportBtn">Export JSON</button>
+    <input type="file" id="importFile" />
+    <button id="importBtn">Import</button>
+</section>
+
+<h2>Eredmény</h2>
+<pre id="output"></pre>
+<p style="color: lightcoral;">Frissítés után az adatok visszaállnak alaphelyzetbe!</p>
+<section class="live-view">
+  <div class="panel">
+    <h2>Számok</h2>
+    <ul id="trackList"></ul>
+  </div>
+
+  <div class="panel">
+    <h2>Lejátszási listák</h2>
+    <ul id="playlistList"></ul>
+  </div>
+</section>
+
+
+<script type="module" src="/src/main.ts"></script>
+
+</body>
+</html>
