@@ -1,4 +1,4 @@
-import type { DB, Playlist, Track } from "./types";
+import type { DB, Playlist, Track } from "./types.ts";
 
 export const db : DB = {
   tracks: [] as Track[],
