@@ -153,7 +153,7 @@ A garázs tartalmát számon tartó adatbázis legyen egy Jármű tömb, Adj hoz
 
 ## Beadandó feladat - Playlist kezelő
 Készítsd el egy TypeScript alkalmazást, amivel rendszerezheted a kedvenc zeneszámaidat. 
-Csak a `functions.ts` állományban dolgozz! Minden egyéb függvény, HTML és stíluselem alapból meg van adva.
+Csak a `functions.ts` és a `types.ts` állományban dolgozz! Minden egyéb függvény, HTML és stíluselem alapból meg van adva.
 
 Alább megtalálod a kezdőállapotot menü alapját, **a feladatod a függvények megírása lesz.**
 Beadandó a Moodle felületre: a kész TypeScript fájl és egy exportált JSON fájl a kedvenc (vagy akármilyen) számaiddal.
